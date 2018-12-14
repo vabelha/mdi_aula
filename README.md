@@ -17,3 +17,6 @@ HTML Quiz: https://www.w3schools.com/html/html_quiz.asp
 Lista de Propriedades CSS: https://www.w3schools.com/cssref/default.asp
 
 CSS Quiz: https://www.w3schools.com/css/css_quiz.asp
+
+
+### Exemplo URL: https://gracious-bhaskara-cfb28a.netlify.com
