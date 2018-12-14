@@ -1,0 +1,123 @@
+.navbar {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+/*ANIMATE*/
+@keyframes bounce {
+  from,
+  20%,
+  53%,
+  80%,
+  to {
+    animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+    transform: translate3d(0, 0, 0);
+  }
+
+  40%,
+  43% {
+    animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
+    transform: translate3d(0, -30px, 0);
+  }
+
+  70% {
+    animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
+    transform: translate3d(0, -15px, 0);
+  }
+
+  90% {
+    transform: translate3d(0, -4px, 0);
+  }
+}
+
+@-webkit-keyframes mover {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-20px);
+  }
+}
+@keyframes mover {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-20px);
+  }
+}
+
+.myjumbo {
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  width: 100%;
+  z-index: 4000;
+  background-color: transparent;
+  text-align: center;
+}
+
+.startButton {
+  bottom: 10px;
+  font-size: 50px;
+  margin-top: 40px;
+  animation: mover 2s infinite alternate;
+  cursor: pointer;
+}
+
+body {
+  background-color: hsl(182.5, 32.4%, 85.5%, 0.2);
+}
+
+.customButton {
+  padding: 10px 20px;
+  border: 2px solid white;
+  background-color: #0056b3;
+  color: white;
+  font-size: 40px;
+  border-radius: 1rem;
+}
+
+.dividerMargin {
+  margin-top: 5rem;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.photo {
+  max-width: 300px;
+  display: block;
+  margin: auto;
+  box-shadow: 0px 2px 2px #7e7e7e;
+}
+
+.navbar-light .navbar-brand {
+  color: white;
+}
+
+.navbar-light .navbar-brand:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+.navbar-light .navbar-nav .active > .nav-link {
+  color: white;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: white;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+#navbarNav {
+  justify-content: flex-end;
+}
